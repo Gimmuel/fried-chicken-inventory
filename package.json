@@ -1,4 +1,21 @@
 {
+<<<<<<< HEAD
+  "name": "expressnodeapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^9.6.1",
+    "mysql2": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+=======
   "name": "invapp",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +40,6 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
     "vite": "^8.0.10"
+>>>>>>> 0799c552c73501bfa18207ddcc84099fc552cfb1
   }
 }
