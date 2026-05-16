@@ -14,7 +14,7 @@ function App() {
   });
 
   const loadItems = () => {
-    fetch("http://localhost:5000/api/inventory")
+    fetch("https://fried-chicken-inventory.onrender.com/api/inventory")
       .then((res) => res.json())
       .then((data) => setItems(data))
       .catch((err) => console.log(err));
